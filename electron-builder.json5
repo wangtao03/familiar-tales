@@ -3,14 +3,12 @@
   "appId": "familiar-tales",
   "asar": true,
   "productName": "familiar-tales",
-  "icon": "images/meta/android-chrome-256x256.png",
   "directories": {
     "output": "release/${version}"
   },
   "files": ["audio", "fonts", "images", "static", "index.html", "index.js"],
   "mac": {
     "target": ["dmg", "zip"], // macOS: 添加 zip 压缩包
-    "icon": "images/meta/android-chrome-256x256.png",
     "artifactName": "${productName}-${platform}-${arch}-${version}.${ext}"
   },
   "win": {
