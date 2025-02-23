@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "familiar-tales",
+  "asar": true,
+  "productName": "familiar-tales",
+  "icon": "images/meta/android-chrome-256x256.png",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": ["audio", "fonts", "images", "static", "index.html", "index.js"],
+  "mac": {
+    "target": ["dmg", "zip"], // macOS: 添加 zip 压缩包
+    "icon": "images/meta/android-chrome-256x256.png",
+    "artifactName": "${productName}-${platform}-${arch}-${version}.${ext}"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis", // Windows 安装包
+        "arch": ["x64", "ia32"]
+      },
+      {
+        "target": "zip", // Windows 压缩包
+        "arch": ["x64", "ia32"]
+      }
+    ],
+    "icon": "images/meta/android-chrome-256x256.png",
+    "artifactName": "${productName}-${platform}-${arch}-${version}.${ext}"
+  },
+  "linux": {
+    "target": ["AppImage", "tar.gz"], // Linux: 添加 tar.gz 压缩包
+    "icon": "images/meta/android-chrome-256x256.png",
+    "artifactName": "${productName}-${platform}-${arch}-${version}.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": false
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "J. Arthur Ellis",
+    "repo": "familiar-tales"
+  }
+}

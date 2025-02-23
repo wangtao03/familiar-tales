@@ -1,0 +1,55 @@
+{
+  "urls": [
+    "finalfile.mp3"
+  ],
+  "sprite": {
+    "FT_MX_ActI_Blaze_HiDanger": [
+      0,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Blaze_LoDanger": [
+      221000,
+      219168.00453514737
+    ],
+    "FT_MX_ActI_Chalk_HiDanger": [
+      442000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Chalk_LoDanger": [
+      663000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_EnemyTurn": [
+      884000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Flicker_HiDanger": [
+      1105000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Flicker_LoDanger": [
+      1326000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Gribbert_HiDanger": [
+      1547000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Gribbert_LoDanger": [
+      1768000,
+      219264.0136054422
+    ],
+    "FT_MX_ActI_Intro": [
+      1989000,
+      30552.018140589553
+    ],
+    "FT_MX_ActI_Intro_SHORT": [
+      2021000,
+      19319.999999999935
+    ],
+    "FT_MX_ActI_Outro": [
+      2042000,
+      22679.999999999836
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "short_name": "森灵传记",
+  "name": "《森灵传记》故事助手",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

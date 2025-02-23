@@ -1,0 +1,15 @@
+{
+  "name": "familiar-tales",
+  "version": "1.3.10",
+  "description": "App for use with the Familiar Tales board game by Plaid Hat Games.",
+  "author": "J. Arthur Ellis",
+  "main": "index.js",
+  "icon":"images/meta/android-chrome-256x256.png",
+  "scripts": {
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8"
+  }
+}
